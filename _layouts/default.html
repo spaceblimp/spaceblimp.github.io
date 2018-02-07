@@ -19,7 +19,7 @@
     <!-- <meta name="twitter:image" content=""/> -->
 
     <!-- For the page -->
-    <title>About - SpaceBlimp 7 (HackerSLS)</title>
+    <title>{{ page.title }}</title>
     <!-- <link rel="shortcut icon" href="images/a.ico" type="image/x-icon"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
@@ -30,15 +30,15 @@
     </header>
     <nav>
         <ul>
-            <!-- <li><a href="/">Home</a></li> -->
+            <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/sponsors">Sponsors</a></li>
             <li><a href="/media">Media</a></li>
         </ul>
     </nav>
-    <main>
-
+    <main class="container">
+        {{ content }}
     </main>
     <footer>
         <ul>

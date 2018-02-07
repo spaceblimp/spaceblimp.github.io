@@ -1,0 +1,13 @@
+/* RESETS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* FONTS */
+p,a,li,h1,h2,h3,h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
