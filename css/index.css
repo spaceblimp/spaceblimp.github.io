@@ -51,10 +51,10 @@ p,a,li,h1,h2,h3,h4{
         font-size: 1.3em;
     }
     /* FRONT PAGE */
-    .front-default{
+    .page-content{
         background-color: #000000;
     }
-    .front-default img{
+    .page-content img{
         height: 100vh;
         width: 100%;
         position: relative;
@@ -62,7 +62,7 @@ p,a,li,h1,h2,h3,h4{
         margin-left: auto;
         margin-right: auto;
     }
-    .front-default h1{
+    .page-content h1{
         z-index: 1;
         position: absolute;
         top: 50%;
@@ -98,6 +98,17 @@ p,a,li,h1,h2,h3,h4{
         text-align: right;
     }
     .brief-info p{
+        color: #ffffff;
+        width: 75%;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 1em;
+    }
+    .page-content p{
         color: #ffffff;
         width: 75%;
         max-width: 1100px;
@@ -173,10 +184,10 @@ p,a,li,h1,h2,h3,h4{
         font-size: 1.3em;
     }
     /* FRONT PAGE */
-    .front-default{
+    .page-content{
         background-color: #000000;
     }
-    .front-default img{
+    .page-content img{
         height: 100vh;
         width: 100%;
         position: relative;
@@ -184,7 +195,7 @@ p,a,li,h1,h2,h3,h4{
         margin-left: auto;
         margin-right: auto;
     }
-    .front-default h1{
+    .page-content h1{
         z-index: 1;
         position: absolute;
         top: 50%;
@@ -220,6 +231,17 @@ p,a,li,h1,h2,h3,h4{
         text-align: right;
     }
     .brief-info p{
+        color: #ffffff;
+        width: 75%;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 1em;
+    }
+    .page-content p{
         color: #ffffff;
         width: 75%;
         max-width: 1100px;
@@ -295,10 +317,10 @@ p,a,li,h1,h2,h3,h4{
         font-size: 1.3em;
     }
     /* FRONT PAGE */
-    .front-default{
+    .page-content{
         background-color: #000000;
     }
-    .front-default img{
+    .page-content img{
         height: 100vh;
         width: 100%;
         position: relative;
@@ -306,7 +328,7 @@ p,a,li,h1,h2,h3,h4{
         margin-left: auto;
         margin-right: auto;
     }
-    .front-default h1{
+    .page-content h1{
         z-index: 1;
         position: absolute;
         top: 50%;
@@ -342,6 +364,17 @@ p,a,li,h1,h2,h3,h4{
         text-align: right;
     }
     .brief-info p{
+        color: #ffffff;
+        width: 75%;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 1em;
+    }
+    .page-content p{
         color: #ffffff;
         width: 75%;
         max-width: 1100px;
@@ -417,10 +450,10 @@ p,a,li,h1,h2,h3,h4{
         font-size: 1.3em;
     }
     /* FRONT PAGE */
-    .front-default{
+    .page-content{
         background-color: #000000;
     }
-    .front-default img{
+    .page-content img{
         height: 100vh;
         width: 100%;
         position: relative;
@@ -428,7 +461,7 @@ p,a,li,h1,h2,h3,h4{
         margin-left: auto;
         margin-right: auto;
     }
-    .front-default h1{
+    .page-content h1{
         z-index: 1;
         position: absolute;
         top: 50%;
@@ -464,6 +497,17 @@ p,a,li,h1,h2,h3,h4{
         text-align: right;
     }
     .brief-info p{
+        color: #ffffff;
+        width: 75%;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 1em;
+    }
+    .page-content p{
         color: #ffffff;
         width: 75%;
         max-width: 1100px;
@@ -539,10 +583,10 @@ p,a,li,h1,h2,h3,h4{
         font-size: 1.3em;
     }
     /* FRONT PAGE */
-    .front-default{
+    .page-content{
         background-color: #000000;
     }
-    .front-default img{
+    .page-content img{
         height: 100vh;
         width: 100%;
         position: relative;
@@ -550,7 +594,7 @@ p,a,li,h1,h2,h3,h4{
         margin-left: auto;
         margin-right: auto;
     }
-    .front-default h1{
+    .page-content h1{
         z-index: 1;
         position: absolute;
         top: 50%;
@@ -586,6 +630,17 @@ p,a,li,h1,h2,h3,h4{
         text-align: right;
     }
     .brief-info p{
+        color: #ffffff;
+        width: 75%;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 1em;
+    }
+    .page-content p{
         color: #ffffff;
         width: 75%;
         max-width: 1100px;
