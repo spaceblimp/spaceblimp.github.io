@@ -8,27 +8,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #000000;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-}
-nav{
-    order: 1;
-}
-.container{
-    order: 2;
-}
-.page-content{
-    order: 3;
-}
-.brief-info{
-    order: 4;
-}
-section{
-    order: 5;
-}
-footer{
-    order: 6;
+    flex-wrap: wrap; */
 }
 /* FONTS */
 p,a,li,h1,h2,h3,h4{
