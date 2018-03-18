@@ -86,7 +86,7 @@ p,a,li,h1,h2,h3,h4{
 /* FRONT PAGE */
 .page-content,.blog-page,.sponsors-page,.student-outreach,.tech-details,.gallery-page{
     background-color: #000000;
-    height: 100vh;
+    height: auto;
 }
 .page-content img{
     height: 100vh;
