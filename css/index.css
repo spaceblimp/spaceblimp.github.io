@@ -84,7 +84,7 @@ p,a,li,h1,h2,h3,h4{
     color: #000000;
 }
 /* FRONT PAGE */
-.page-content,.blog-page,.sponsors-page,.student-outreach,.tech-details,.gallery-page{
+.page-content,.blog-page,.student-outreach,.tech-details,.gallery-page{
     background-color: #000000;
     height: auto;
 }
@@ -167,8 +167,9 @@ p,a,li,h1,h2,h3,h4{
     padding-bottom: 1em;
 }
 /* BLOG PAGE */
-.blog-page{
-}
+/* .blog-page{
+
+} */
 /* MEDIA QUERIES */
 /* PORTRAIT PHONES */
 @media(max-width: 566px){
