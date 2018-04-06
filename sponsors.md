@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Sponsors - SpaceBlimp 7 (HackerSLS)
+layout: page
+title: Sponsors
 ---
 <section class="sponsors-page page-content">
     <h2>Our Sponsors</h2>

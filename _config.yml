@@ -1,2 +1,11 @@
 name: SpaceBlimp 7
 markdown: kramdown
+
+permalink:           pretty
+relative_permalinks: true
+title:               SpaceBlimp 7
+tagline:             'A high altitude balloon project'
+description:         'SpaceBlimp 7 (HackerSLS) - A High Altitude Balloon Project'
+url:                 https://spaceblimp.org
+baseurl:             ''
+paginate:            5

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About Us - SpaceBlimp 7 (HackerSLS)
+layout: page
+title: About Us
 ---
 <section class="about-page page-content">
     <p>SpaceBlimp 7 (SB7) is an educational and exploratory stratospheric balloon made of latex, filled with helium or hydrogen, and expands as it ascends through Earth's atmosphere to near-space (to a height of about 100,000ft). The balloon is capable of carrying equipment (payloads). Payloads can include: electronics, radio transmitters, cameras, GPS receivers, atmospheric and/or near-space experiments.

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Student Outreach Program - SpaceBlimp 7 (HackerSLS)
+layout: page
+title: Student Outreach Program
 ---
 <section class="student-outreach-page page-content">
     <h1>Coming soon!</h1>

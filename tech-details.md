@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Technical Details - SpaceBlimp 7 (HackerSLS)
+layout: page
+title: Technical Details
 ---
 <section class="tech-details-page page-content">
     <p>The following are payload descriptions for GSBC 2018:</p>

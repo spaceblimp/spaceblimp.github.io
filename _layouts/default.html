@@ -1,56 +1,35 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="SpaceBlimp 7 (HackerSLS) - A High Altitude Balloon Project">
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="SpaceBlimp 7"/>
-    <meta property="og:description" content="SpaceBlimp 7 (HackerSLS) - A High Altitude Balloon Project"/>
-    <!-- <meta property="og:image" content=""> -->
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="400" />
-
-    <!-- For Twitter -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="SpaceBlimp 7 (HackerSLS)"/>
-    <meta name="twitter:description" content="A High Altitude Balloon (HAB) Project"/>
-    <!-- <meta name="twitter:image" content=""/> -->
-
-    <!-- For the page -->
-    <title>{{ page.title }}</title>
-    <!-- <link rel="shortcut icon" href="images/a.ico" type="image/x-icon"> -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Source+Sans+Pro:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
-</head>
-<body>
-    <nav class="nav-default">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/tech-details/">Technical Details</a></li>
-            <li><a href="/student-outreach/">Student Outreach Program</a></li>
-            <li><a href="/join/">Join Us</a></li>
-            <li><a href="/sponsors/">Sponsors</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/photos/">Photos</a></li>
-        </ul>
-    </nav>
-    <!-- <section class="front-default">
-        <h1>SpaceBlimp</h1>
-        <img src="images/sb6_burst.gif" alt="">
-    </section> -->
-    <section class="container">
-        {{ content }}
-    </section>
-    <footer class="footer-default">
-        <ul>
-            <li><a href="https://www.hacdc.org/" target="_blank">HacDC</a></li>
-            <li><a href="http://rockvillesciencecenter.org/programs/studio-i-makerspace/" target="_blank">Rockville Makerspace</a></li>
-            <li><a href="https://www.unallocatedspace.org/" target="_blank">Unallocated Space</a></li>
-        </ul>
-    </footer>
-</body>
+<html lang="en-us">
+    {% include head.html %}
+    <body class="layout-reverse">
+    {% include sidebar.html %}
+    <div class="wrap">
+        <div class="masthead">
+            <div class="container">
+                <h3 class="masthead-title">
+                    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+                    <small>{{ site.tagline }}</small>
+                </h3>
+            </div>
+        </div>
+        <div class="container content">
+            {{ content }}
+        </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+        <script>
+        (function(document) {
+            var toggle = document.querySelector('.sidebar-toggle');
+            var sidebar = document.querySelector('#sidebar');
+            var checkbox = document.querySelector('#sidebar-checkbox');
+            document.addEventListener('click', function(e) {
+            var target = e.target;
+            if(!checkbox.checked ||
+                sidebar.contains(target) ||
+                (target === checkbox || target === toggle)) return;
+            checkbox.checked = false;
+            }, false);
+        })(document);
+        </script>
+    </body>
 </html>

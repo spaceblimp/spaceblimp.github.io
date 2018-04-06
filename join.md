@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Join Us - SpaceBlimp 7 (HackerSLS)
+layout: page
+title: Join Us
 ---
 <section class="join-page page-content">
     <p>SpaceBlimp 7 is a high altitude balloon project and collaborative community program. By forming a partnership with several area makerspaces, volunteers, independent specialists, hackers, and educators, we are expanding our team, pooling resources, and aiming to increase the project's visibility to the benefit of all those involved. This will also expose high school students to educational and technical resources outside of their school environment as well as giving all the participants the opportunity to share skills and interests to work together and learn from one another to achieve shared goals. Local area hackers and space enthusiasts will come share and learn new skills in the design, construction and launch of the payloads.</p>
