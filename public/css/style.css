@@ -1,6 +1,6 @@
+@charset "UTF-8";
 /* Prevent scroll on narrow devices */
-html,
-body {
+html,body{
     overflow-x: hidden;
 }
 html {

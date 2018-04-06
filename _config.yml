@@ -1,7 +1,10 @@
-permalink:           pretty
-title:               SpaceBlimp 7
-tagline:             'A high altitude balloon project'
-description:         'SpaceBlimp 7 (HackerSLS) - A High Altitude Balloon Project'
-url:                 https://spaceblimp.org
-baseurl:             ''
-paginate:            5
+permalink: pretty
+title: SpaceBlimp 7
+tagline: 'A high altitude balloon project'
+description: 'SpaceBlimp 7 (HackerSLS) - A High Altitude Balloon Project'
+url: https://spaceblimp.org
+baseurl: ''
+paginate: 5
+encoding: utf-8
+sass:
+  add_charset: true
