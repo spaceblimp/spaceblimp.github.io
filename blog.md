@@ -3,14 +3,13 @@ layout: page
 title: Blog
 ---
 <div class="posts">
-	{% for post in paginator.posts %}
+	<ul>
+	{% for post in site.posts %}
 	<div class="post">
-		<h1 class="post-title"><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-		</h1>
-		<span class="post-date">{{ post.date | date_to_string }}</span>
-		{{ post.content }}
+		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	</div>
 	{% endfor %}
+	</ul>
 </div>
 <div class="pagination">
 	{% if paginator.next_page %}
