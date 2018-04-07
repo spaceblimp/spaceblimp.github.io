@@ -3,13 +3,18 @@ layout: page
 title: Technical Details
 ---
 <section class="tech-details-page page-content">
-    <p>The following are payload descriptions for GSBC 2018:</p>
+    <p>More details coming soon. Brief information:</p>
     <ul>
-        <li>Andrew Reed: https://drive.google.com/drive/folders/1MThPbwBT4rgNlLA9GDatqTICIoUUJSAO</li>
-        <li>Enrique Cobas: https://docs.google.com/document/d/17SGnQwXtNikP4nXmGL0QR6uKrQTdrwZJYTAZYVTFtpc/edit</li>
-        <li>Gerald Shield and Nancy C. Wolfson: https://docs.google.com/document/d/1rvcfQsCvXJc7qrlbNG0vzHKqCHBl-E_1OWZsehN39CA/edit
-        </li>
-        <li>3D printed GoPro Boxes: https://docs.google.com/document/d/1YKC7xxh1Ul-6HRDiM5EYuYkTyRGedjTS9ErmkS8otGE/edit</li>
-        <li>Checklists: https://drive.google.com/drive/folders/1ZQuyNc5_ObALS6-jLTKvVKis6EHIaqwu</li>
+        <li>Ballon: latex, 1500g</li>
+        <li>Spare balloon: latex, 1500g</li>
+        <li>Insulated lunch box</li>
+        <li>Parachute</li>
+        <li>Ring for payload</li>
+        <li>Attitude adjuster payload (Andrew Reed: http://cosmospioneering.com/)</li>
+        <li>Cosmic ray detector (David Bengtson)</li>
+        <li>Location tracker, custom</li>
+        <li>Backup tracker</li>
+        <li>Cameras: GoPros, Raspberry Pi cameras</li>
+        <li>Radio: HAM radio operators, various radios</li>
     </ul>
 </section>
